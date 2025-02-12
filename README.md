@@ -1,4 +1,4 @@
-# Document Search plugin for Craft CMS 4
+# Document Search plugin for Craft CMS 5
 Extracts keywords and phrases from PDF documents and adds them to Craft CMS' native search index.
 
 **NOTE:** 
@@ -26,7 +26,7 @@ Once installed and configured (see configuration section), PDF assets with text 
 Like other fields in Craft, you may tweak the search query to your liking by targeting the field named `contentKeywords`
 
 ## Requirements
-- Craft CMS 3.1.x
+- Craft CMS 5.0.x
 - pdftotext executable
 - Ample memory
 
@@ -52,6 +52,10 @@ To install on Ubuntu or Debian, the precompiled binaries can be procured from ap
 To install on RedHat or CentOS, the precompiled binaries can be procured from yum:
 
 `yum install poppler-utils`
+
+To install on MacOS, the precompiled binaries can be procured from [Homebrew](https://brew.sh):
+
+`brew install poppler`
 
 **Note:**
 If you're looking for a full-text document search solution, this isn't it. The purpose of this plugin is to boil down large documents to consumable sizes for a PHP-based web server.

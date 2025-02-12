@@ -2,7 +2,7 @@
     "name": "venveo/craft-documentsearch",
     "description": "Extract the contents of text documents and add to Craft's search index",
     "type": "craft-plugin",
-    "version": "4.0.2",
+    "version": "5.0.0",
     "keywords": [
         "craft",
         "cms",
@@ -26,7 +26,7 @@
         "ext-zip": "*",
         "ext-dom": "*",
         "ext-libxml": "*",
-        "craftcms/cms": "^4.0.0",
+        "craftcms/cms": "^5.0.0",
         "spatie/pdf-to-text": "^1.1",
         "yooper/php-text-analysis": "^1.4",
         "voku/stop-words": "^2.0"
